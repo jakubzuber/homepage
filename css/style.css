@@ -1,0 +1,239 @@
+html {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', italic, sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.header {
+    font-size: 50px;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+.header__symbol {
+    font-family: 'Qwitcher Grypen', cursive, sans-serif;
+    background: transparent;
+    border: 0px;
+    color: white;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+}
+
+.header__symbol::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 25px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #e1a87a;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.header__symbol:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.header__buttons {
+    background: transparent;
+    border: 0px;
+    color: white;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.header__buttons:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #e1a87a;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.header__buttons:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.quote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Qwitcher Grypen', cursive, sans-serif;
+    font-size: 40px;
+}
+
+.photoJakubZuber {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 250px;
+    border: 2px solid #e1a87a;
+    border-radius: 10px;
+    filter: brightness(0.8);
+}
+
+.section__title {
+    text-align: center;
+    border: 2px solid #e1a87a;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.section__title:hover {
+    background-color: #e1a87a;
+}
+
+.section__text {
+    text-align: center;
+    line-height: 1.5;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px auto;
+}
+
+.section__videoButton {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid #e1a87a;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.section__videoButton:hover {
+    background-color: #e1a87a;
+}
+
+.section__videoButton--videoHidden {
+    display: none;
+}
+
+.section__videoButton--videoVisible {
+    display:block;
+}
+
+.tabelOnPhones {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.table__title {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.table__cell {
+    border: 2px solid #e1a87a;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__cell:hover {
+    background-color: #e1a87a;
+}
+
+.table__header {
+    background-color: #e1a87a;
+    text-transform: uppercase;
+}
+
+.list {
+    margin: 5px;
+}
+
+.list__title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.list__unoordered {
+    list-style-type: disc;
+}
+
+.list__item {
+    padding: 2px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links__title {
+    text-align: center;
+    font-size: 30PX;
+    margin: 20PX;
+}
+
+.links__link {
+    color: #e1a87a;
+    text-decoration: none;
+}
+
+.links__link:hover {
+    color: #e1a87a;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.links__link:visited {
+    color: darkred;
+}
+
+.links__link:active {
+    color: white;
+}
+
+.footer__info {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.footer__contact {
+    border: 1px solid #e1a87a;
+    text-align: center;
+    color: #e1a87a;
+    padding: 2px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.footer__title {
+    margin-left: 50px;
+}
