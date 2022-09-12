@@ -126,7 +126,7 @@ html {
     padding: 10px;
     border-radius: 5px;
     border-radius: 5px;
-    text-decoration: none;
+    max-width: 220px;
 }
 
 .section__videoButton:hover {
@@ -139,6 +139,8 @@ html {
 
 .section__videoButton--videoVisible {
     display:block;
+    margin: 0 auto;
+    border: 2px solid #e1a87a;
 }
 
 .tabelOnPhones {
