@@ -1,0 +1,68 @@
+.quote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Qwitcher Grypen', cursive, sans-serif;
+    font-size: 40px;
+}
+
+.photoJakubZuber {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 250px;
+    border: 2px solid #e1a87a;
+    border-radius: 10px;
+    filter: brightness(0.8);
+}
+
+.section__title {
+    text-align: center;
+    border: 2px solid #e1a87a;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.section__title:hover {
+    background-color: #e1a87a;
+}
+
+.section__text {
+    text-align: center;
+    line-height: 1.5;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px auto;
+}
+
+.section__videoButton {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid #e1a87a;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+    max-width: 220px;
+}
+
+.section__videoButton:hover {
+    background-color: #e1a87a;
+}
+
+.section__videoButton--videoHidden {
+    display: none;
+}
+
+.section__videoButton--videoVisible {
+    display:block;
+    margin: 0 auto;
+    border: 2px solid #e1a87a;
+}

@@ -1,0 +1,46 @@
+.links {
+    text-align: center;
+}
+
+.links__title {
+    text-align: center;
+    font-size: 30PX;
+    margin: 20PX;
+}
+
+.links__link {
+    color: #e1a87a;
+    text-decoration: none;
+}
+
+.links__link:hover {
+    color: #e1a87a;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.links__link:visited {
+    color: darkred;
+}
+
+.links__link:active {
+    color: white;
+}
+
+.footer__info {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.footer__contact {
+    border: 1px solid #e1a87a;
+    text-align: center;
+    color: #e1a87a;
+    padding: 2px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.footer__title {
+    margin-left: 50px;
+}

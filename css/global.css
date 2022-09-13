@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', italic, sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.tabelOnPhones {
+    overflow-x: auto;
+}

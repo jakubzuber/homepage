@@ -1,0 +1,62 @@
+.header {
+    font-size: 50px;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+.header__symbol {
+    font-family: 'Qwitcher Grypen', cursive, sans-serif;
+    background: transparent;
+    border: 0px;
+    color: white;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+}
+
+.header__symbol::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 25px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #e1a87a;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.header__symbol:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.header__buttons {
+    background: transparent;
+    border: 0px;
+    color: white;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.header__buttons:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #e1a87a;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.header__buttons:hover::after {
+    width: 100%;
+    left: 0;
+}
