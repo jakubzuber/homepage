@@ -37,6 +37,7 @@
 .section__iframe {
     visibility: hidden;
     border: 2px solid #e1a87a;
+    align-items: center;
 }
 
 .section__iframe--Visible {
