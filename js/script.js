@@ -1,11 +1,11 @@
-{ /* console welcome message */
+{
     const welcome = () => {
         console.log("Witam na mojej stronie")
     }
     welcome();
 };
 
-{ /* video button */
+{
     const youtubeHidden = document.querySelector(".section__iframe");
     const videoButton = document.querySelector(".section__videoButton");
 
