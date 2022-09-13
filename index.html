@@ -28,37 +28,39 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="body">
     <header class="header"><span class="header__symbol">JZ</span>
         <nav>
-            <a href="#about-me" class="header__buttons">ABOUT ME</a>
-            <a href="#what-I-do" class="header__buttons">WHAT I DO</a>
-            <a href="#hobbies" class="header__buttons">HOBBIES</a>
-            <a href="#my-first-video" class="header__buttons">MY FIRST VIDEO</a>
-            <a href="#soon" class="header__buttons">SOON NEW NEWS!</a>
-            <a href="#songs" class="header__buttons">SONGS</a>
-            <a href="#coffee" class="header__buttons">COFFEE</a>
-            <a href="#other" class="header__buttons">OTHER</a>
+            <a href="#about-me" class="header__link">ABOUT ME</a>
+            <a href="#what-I-do" class="header__link">WHAT I DO</a>
+            <a href="#hobbies" class="header__link">HOBBIES</a>
+            <a href="#my-first-video" class="header__link">MY FIRST VIDEO</a>
+            <a href="#soon" class="header__link">SOON NEW NEWS!</a>
+            <a href="#songs" class="header__link">SONGS</a>
+            <a href="#coffee" class="header__link">COFFEE</a>
+            <a href="#other" class="header__link">OTHER</a>
         </nav>
     </header>
     <dev class="quoteAndPhoto">
-        <aside class="quote">"It’s the possibility of having a dream come true that makes life
-            interesting."<br>Paulo
-            Corelho</aside>
+        <aside class="quote">
+            "It's the possibility of having a dream come truethat makes life interesting."
+            <br>
+            Paulo Corelho
+        </aside>
         <img class="photoJakubZuber" src="images/jakub_zuber.jpeg" alt="Jakub Zuber">
     </dev>
     <main>
         <article>
             <section class="section">
-                <h1 id="about-me" class="section__title">About me</h1>
-                <p class="section__text"> I am from Poland, living in small village near Bielsko-Biała city. I graduated
+                <h1 class="section__title">About me</h1>
+                <p id="about-me" class="section__text"> I am from Poland, living in small village near Bielsko-Biała city. I graduated
                     Economic University in Katowice with degree of engineer of Logistics in 2022. Now I am learning how
                     to design and make functionalities on sites to become a Frontend developer in the nearest future.
                 </p>
             </section>
             <section class="section">
-                <h1 id="what-I-do" class="section__title">What I do</h1>
-                <p class="section__text"> From few months on Mondays and Tuesdays I create, test and implement new
+                <h1 class="section__title">What I do</h1>
+                <p id="what-I-do" class="section__text"> From few months on Mondays and Tuesdays I create, test and implement new
                     solutions to our internal companysystem. I also create SQL procedure and reports andin few next
                     weeks, I will implement ETL applicationto improve reporting system. From Wednesday to FridayI work
                     as International Forwarder, I specialize in groupage transport to countries that are out off
@@ -66,8 +68,8 @@
                 </p>
             </section>
             <section class="section">
-                <h1 id="hobbies" class="section__title">Hobbies</h1>
-                <p class="section__text"> Regularly from few years I am going to gym, I loveto do it, because when I am
+                <h1 class="section__title">Hobbies</h1>
+                <p id="hobbies" class="section__text"> Regularly from few years I am going to gym, I loveto do it, because when I am
                     trailing I can clear my mind. My second favorite sport is roller skating, as soons as weather allows
                     I
                     go outside to do it! I also love coffee. When I have some free time, I am trying to learn new things
@@ -76,21 +78,22 @@
                 </p>
             </section>
             <section class="section">
-                <h1>
-                    <button id="my-first-video" class="section__videoButton">
-                        My first video (click to see)
+                <p>
+                    <button class="section__videoButton">
+                        My first video
+                        <br>(click to see)
                     </button>
-                </h1>
+                </p>
                 <p class="section__text">
-                    <iframe class="section__videoButton--videoHidden" src="https://www.youtube.com/embed/d8zSOjqpT68"
+                    <iframe id="my-first-video" class="section__iframe" src="https://www.youtube.com/embed/d8zSOjqpT68"
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </p>
             </section>
             <section class="section">
-                <h1 id="soon" class="section__title">SOON!</h1>
-                <p class="section__text"> SOON NEW THNIGS!
+                <h1 class="section__title">SOON!</h1>
+                <p id="soon" class="section__text">
                 </p>
             </section>
         </article>
@@ -143,7 +146,7 @@
             </table>
         </div>
         <ol class="list">
-            <p id="coffee" class="list__title">How to make good overflow coffee</p>
+            <h1 id="coffee" class="list__title">How to make good overflow coffee</h1>
             <li> Prepare:</li>
             <ul class="list__unoordered">
                 <li class="list__item">coffee beans</li>
@@ -161,7 +164,7 @@
             <li class="list__item">Testy Coffee</li>
         </ol>
         <aside class="links">
-            <p id="other" class="links__title">Usefull links and files to download</p>
+            <h1 id="other" class="links__title">Usefull links and files to download</h1>
             <p>
                 <a class="links__link" target="_blank" rel="noreferrer noopener" title="Article in polish language"
                     href="https://pl.wikipedia.org/wiki/Linkin_Park">More about Linkin

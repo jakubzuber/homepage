@@ -34,11 +34,6 @@
 
 
 
-
-
-
-
-
 .section__title:hover {
     background-color: #e1a87a;
 }
@@ -47,12 +42,12 @@
     background-color: #e1a87a;
 }
 
-.section__videoButton--videoHidden {
-    display: none;
+.section__iframe {
+    visibility: hidden;
     border: 2px solid #e1a87a;
 }
 
-.section__videoButton--videoVisible {
-    display: block;
+.section__iframe--Visible {
+    visibility: visible;
     border: 2px solid #e1a87a;
 }
