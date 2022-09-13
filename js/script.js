@@ -17,11 +17,11 @@
         videoButton.innerHTML = youtubeHidden.classList.contains("section__iframe--Visible") ? "My first video<br>(click to close)" : "My first video<br>(click to see)"
     }
     
-    const button = () => {
+    const onButton = () => {
         videoButton.addEventListener("click", () => {
             onChangeVisibilityButton();
             onChangeVideoButtonText();
             })
     }
-    button()
+    onButton()
 };
