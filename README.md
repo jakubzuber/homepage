@@ -1,10 +1,11 @@
 # Jakub Zuber - my homepage
 
 ## Technologies used to create site:
-- bem
-- flexbox
-- ES+ futures
-- css
+- BEM
+- CSS
+- FLEXBOX
+- ES+ Futures
+- HTML
 
 ## Demo
 
