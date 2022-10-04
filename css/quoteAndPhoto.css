@@ -6,9 +6,8 @@
 }
 
 .quote {
-    font-family: 'Qwitcher Grypen', cursive, sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     max-width: 400px;
     margin-bottom: 10px;
 }
